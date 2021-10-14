@@ -1,0 +1,37 @@
+body{
+    background-color: #D9BDAD;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+}
+
+
+header.primary{
+    background-color: #03588C;
+    text-align:center;
+    color:#ffffff;
+    
+    padding: 30px 40px 20px 40px;
+}
+
+header.secondary{
+    background-color: #0378A6;
+    text-align:center;
+    color:#ffffff;
+    
+    padding: 3px 4px 2px 4px;
+}
+
+header.secondary h2{
+    font-size: 15px;
+}
+
+a{
+    color:#8C2711;
+    
+    
+}
+
+li{
+    list-style-type:none;
+    text-align:center;
+}
