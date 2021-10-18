@@ -18,6 +18,27 @@ html {
   margin:40px auto;
 }
 
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin-left:20px;
+}
+
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin-right:20px;
+}
+
+img-center{
+    display:block;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+    padding:5px;
+}
+
 /*----------------Responsive Images-------------*/
 
 img{
@@ -52,6 +73,10 @@ header.primary {
     padding: 20px 40px;  
     
     text-shadow:2px 2px #000000;
+    
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
+
+    
 }
 
 header.primary h1{
@@ -119,6 +144,8 @@ header nav a:hover, header nav a:active{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    border-bottom:1px dotted #c0c0c0;
+    padding-bottom:2.8rem;
 }
 
 
@@ -152,7 +179,72 @@ time.post-date, figcaption, .post-meta {
 }
 
 
+#additional-elements{
+  line-height:1.5;
+}
+
+#additional-elements a, #additional-elements a:visited{
+  color:#3b638b;
+}
+
+
+#additional-elements h2{
+  color:#3b638b;
+  border-bottom:1px dotted #c0c0c0;
+}
+
+#additional-elements h3{
+    border-left:8px solid #0378A6;
+    padding-left:10px;
+}
+
+table{
+    width:100%;
+    border:1px solid #c0c0c0;
+    margin-bottom:40px;
+    border-collapse:collapse;
+}
+
+
+
+table th{
+    background:#03588C;
+    color:#fff;
+    width:33%;
+    padding:10px;
+}
+
+table td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+    text-align:center;
+}
+
+table caption{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Attribute Selectors */
+
 aside[role="complementary"]{
     background:#8C2711;
     color:#ffffff;
@@ -169,6 +261,29 @@ article.widget{
     width:46%;
 }
 
+article.widget a {
+  color:#ffffff;
+  display:block;
+  margin-top:1.2rem;
+}
+
+article.widget footer{
+  display:none;
+}
+
+#colophon{
+  background-color:#732A24;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:#fff;
+  font-size:.8rem;
+  text-transform:uppercase;
+}
 
 /* Media Query Example */
 
