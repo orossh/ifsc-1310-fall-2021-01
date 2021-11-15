@@ -1,0 +1,79 @@
+/*Utility Classes*/
+.container{
+  width:90vw;
+  margin:20px auto;
+}
+
+/*Global Styles*/
+body{
+  background-color#F2F2F2;
+  font-family: 'Lora', serif;
+  margin:0;
+}
+
+header.primary {
+  background-color:#262626;
+  text-align:center;
+  color:#ffffff;
+  padding: 50px 50px 30px 50px;
+}  
+
+header.primary h1 a{
+  font-size:4rem;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+header.primary nav{
+    width:70vw;
+    margin:20px auto;
+    max-width:900px;
+}
+
+header.primary nav ul{
+    padding:15px 30px 0px 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+header.primary nav li{
+    list-style-type:none;
+}
+
+header.primary nav a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#404040;
+    opacity:.9;
+    padding:8px 16px;
+    border-radius:5px;
+    transition:.3s;
+}
+
+header nav a:hover, header nav a:active{
+  background-color:#262626;
+}
+
+#colophon{
+  background-color: #262626;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:#ffffff;
+  font-size:1rem;
+  text-transform:uppercase;
+}
+
+article h2 a{
+  text-decoration: none;
+  color:#262626;
+}
+
+article{
+  text-align: center;
+}
