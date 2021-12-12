@@ -35,3 +35,12 @@ li{
     list-style-type:none;
     text-align:center;
 }
+
+.main{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main li{
+    text-align: justify;
+}
